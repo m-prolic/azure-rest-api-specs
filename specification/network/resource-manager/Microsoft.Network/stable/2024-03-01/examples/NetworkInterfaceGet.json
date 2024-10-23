@@ -28,7 +28,8 @@
                   "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/virtualNetworks/rg1-vnet/subnets/default"
                 },
                 "primary": true,
-                "privateIPAddressVersion": "IPv4"
+                "privateIPAddressVersion": "IPv4",
+                "vlanId":701
               }
             },
             {
@@ -43,7 +44,8 @@
                   "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/virtualNetworks/rg1-vnet/subnets/default"
                 },
                 "primary": false,
-                "privateIPAddressVersion": "IPv4"
+                "privateIPAddressVersion": "IPv4",
+                "vlanId":701
               }
             }
           ],
@@ -66,7 +68,8 @@
           "dscpConfiguration": {
             "id": "/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Compute/dscpConfiguration/mydscpconfiguration"
           },
-          "vnetEncryptionSupported": false
+          "vnetEncryptionSupported": false,
+          "linkedResourceType": "Microsoft.AVS/PrivateClouds"
         },
         "type": "Microsoft.Network/networkInterfaces"
       }

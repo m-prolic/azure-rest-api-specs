@@ -21,7 +21,8 @@
                 "id": "/subscriptions/subid/resourceGroups/testrg/providers/Microsoft.Network/virtualNetworks/vnet12/subnets/subnet12"
               },
               "primary": true,
-              "privateIPAddressVersion": "IPv4"
+              "privateIPAddressVersion": "IPv4",
+              "vlanId":701
             }
           }
         ]

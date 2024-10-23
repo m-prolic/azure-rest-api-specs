@@ -37,7 +37,8 @@
             {
               "id": "/subscriptions/subid/resourceGroups/testrg/providers/Microsoft.Network/virtualNetworkTaps/vTAP2"
             }
-          ]
+          ],
+          "vlanId":701
         }
       }
     }

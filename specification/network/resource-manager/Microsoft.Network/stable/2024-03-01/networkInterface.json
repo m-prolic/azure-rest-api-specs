@@ -999,6 +999,12 @@
           },
           "description": "Application security groups in which the IP configuration is included."
         },
+        "vlanId": {
+          "type": "integer",
+          "format": "int32",
+          "description": "",
+          "readOnly": true
+        },
         "provisioningState": {
           "readOnly": true,
           "$ref": "./network.json#/definitions/ProvisioningState",
@@ -1158,6 +1164,11 @@
         "enableIPForwarding": {
           "type": "boolean",
           "description": "Indicates whether IP forwarding is enabled on this network interface."
+        },
+        "linkedResourceType": {
+          "type": "string",
+          "description": "",
+          "readOnly": true
         },
         "hostedWorkloads": {
           "type": "array",
